@@ -1,3 +1,3 @@
 [build]
   command = "npm run build"
-  publish = "PS C:\Users\Elijah MacNamara\Dropbox\Year 4\Semester 2 - CA's & Projects\DevOpsSec\SimpleApplication\SimpleApplication>"
+  publish = "PS C:/SimpleApplication/SimpleApplication>"
