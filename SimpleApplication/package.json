@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node app.js",
     "test": "node_modules/.bin/mocha --reporter mocha-circleci-reporter test/*.js",
-    "dev": "nodemon ./bin/www"
+    "dev": "nodemon ./bin/www",
+    "build": "webpack --config webpack.config.js"
     },
   "dependencies": {
     "cookie-parser": "~1.4.4",
