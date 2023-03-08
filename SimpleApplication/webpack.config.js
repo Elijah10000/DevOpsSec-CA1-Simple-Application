@@ -2,12 +2,18 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: 'SimpleApplication',
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'SimpleApplication'),
     filename: 'bundle.js'
   },
   target: 'node',
+  resolve: {
+    modules: [
+      path.resolve(__dirname, 'src'),
+      'node_modules'
+    ]
+  },
   module: {
     rules: [
       {
