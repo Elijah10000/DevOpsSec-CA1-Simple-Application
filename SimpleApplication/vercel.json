@@ -1,6 +1,6 @@
 {
     "builds": [
-      { "src": "./public/index.html", "use": "@vercel/node" }
+      { "src": "./SimpleApplication/package.json", "use": "@vercel/node" }
     ]
   }
   
