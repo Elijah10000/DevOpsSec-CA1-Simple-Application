@@ -36,7 +36,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-module.exports = app;
+const app = require('./SimpleApplication/bundle');
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
