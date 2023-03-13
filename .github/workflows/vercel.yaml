@@ -22,5 +22,4 @@ jobs:
           vercel-token: BfAwybr0D08WzG85uTRQo8RC
           vercel-org-id: 2Wd4hd2lBRJSdTAowUIVbH83
           vercel-project-id: prj_538N5WGH2qzgT3VZULohurbibWVk
-          github-token: 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
           prod: true
