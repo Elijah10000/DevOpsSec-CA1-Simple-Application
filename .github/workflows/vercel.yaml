@@ -20,5 +20,6 @@ jobs:
         uses: amondnet/vercel-action@v20
         with:
           vercel-token: BfAwybr0D08WzG85uTRQo8RC
+          vercel-org-id: elijah10000
           github-token: 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
           prod: true
