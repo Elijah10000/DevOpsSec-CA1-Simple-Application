@@ -21,5 +21,6 @@ jobs:
         with:
           vercel-token: BfAwybr0D08WzG85uTRQo8RC
           vercel-org-id: elijah10000
+          VERCEL_PROJECT_ID: prj_538N5WGH2qzgT3VZULohurbibWVk
           github-token: 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
           prod: true
