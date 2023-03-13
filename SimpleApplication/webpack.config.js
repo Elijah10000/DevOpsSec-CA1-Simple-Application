@@ -10,7 +10,7 @@ module.exports = {
   target: 'node',
   resolve: {
     modules: [
-      path.resolve(__dirname, 'src'),
+      path.resolve(__dirname, 'SimpleApplication'),
       'node_modules'
     ]
   },
