@@ -19,6 +19,6 @@ jobs:
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v20
         with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-token: BfAwybr0D08WzG85uTRQo8RC
+          github-token: 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
           prod: true
